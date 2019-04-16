@@ -1,0 +1,43 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "app.bundle.js" ]
+      }
+   },
+   "description": "webpack-demo",
+   "icons": {
+      "16": "icons/16.png",
+      "24": "icons/24.png",
+      "32": "icons/32.png"
+   },
+   "manifest_version": 2,
+   "name": "webpack-demo",
+   "oauth2": {
+        "client_id": "822986165853-si95b61scnlgq63hf7ahq6qvs5u4hpi8.apps.googleusercontent.com",
+        "scopes": [
+            "user_base",
+            "user_detail"
+        ]
+    },
+   "permissions": [ 
+       "identity",
+       "identity.email",
+       "seewo.identity",
+       "seewo",
+       "unlimitedStorage",
+       "fileSystemProvider", 
+       "alwaysOnTopWindows",
+       "storage", 
+       "management",
+       "notifications",
+       "http://192.168.1.141:7001/*",
+       "https://store-ts1.cvte.com/seewo-drive/*",
+       "https://static.seewo.com/*",
+       "http://onedrive.test.seewo.com/*",
+       "http://studentdrive.seewo.com/*",
+       "https://up.qbox.me/",
+       "http://myou.cvte.com/friday/"
+     ],
+   "short_name": "希沃资料夹",
+   "version": "1.4.0"
+}
